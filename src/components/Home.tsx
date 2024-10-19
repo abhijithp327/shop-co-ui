@@ -3,6 +3,7 @@ import BrandListing from './shared/Brands';
 import BrandSection from './shared/BrandSection';
 import BrowseStyle from './shared/BrowseStyle';
 import Feedback from './shared/Feedback';
+import Footer from './shared/Footer';
 import HeroSection from './shared/HeroSection';
 import ImageShowcase from './shared/ImageShowCase';
 import InstagramFeeds from './shared/InstaFeeds';
@@ -31,6 +32,7 @@ const Home = () => {
             <BestSeller />
             <InstagramFeeds />
             <Feedback />
+            <Footer />
 
         </div>
     )
