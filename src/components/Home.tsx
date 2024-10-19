@@ -1,8 +1,11 @@
+import BestSeller from './shared/BestSeller';
 import BrandListing from './shared/Brands';
 import BrandSection from './shared/BrandSection';
 import BrowseStyle from './shared/BrowseStyle';
+import Feedback from './shared/Feedback';
 import HeroSection from './shared/HeroSection';
 import ImageShowcase from './shared/ImageShowCase';
+import InstagramFeeds from './shared/InstaFeeds';
 import Navbar from './shared/Navbar';
 import NewArrivals from './shared/NewArrivals';
 import PopularStyles from './shared/PopularStyles';
@@ -25,6 +28,9 @@ const Home = () => {
             <PopularStyles />
             <ProductGrid />
             <ImageShowcase />
+            <BestSeller />
+            <InstagramFeeds />
+            <Feedback />
 
         </div>
     )
