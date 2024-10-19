@@ -2,6 +2,7 @@ import React from 'react';
 import { FaShoppingCart, FaUserCircle, FaSearch, FaBars } from 'react-icons/fa';
 
 const Navbar = () => {
+    
     const [isShopDropdownOpen, setIsShopDropdownOpen] = React.useState(false);
     const [isMenuOpen, setIsMenuOpen] = React.useState(false);
     const [isSearchOpen, setIsSearchOpen] = React.useState(false);

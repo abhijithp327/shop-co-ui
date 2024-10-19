@@ -62,10 +62,16 @@
 @layer base {
   * {
     @apply border-border;
+    /* @apply font-integral; */
   }
   body {
     @apply bg-background text-foreground;
   }
+}
+
+@font-face {
+  font-family: Integral;
+  src: url('../src/assets/fonts/Fontspring-DEMO-integralcf-regular.otf');
 }
 
 /* .browse-style-grid {
