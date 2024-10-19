@@ -1,6 +1,5 @@
 import React from 'react';
 
-// Assuming these are the paths to your images
 import Image01 from '@/assets/images/po1.png';
 import Image02 from '@/assets/images/po2.png';
 import Image03 from '@/assets/images/po3.png';
