@@ -144,7 +144,7 @@ const Navbar = () => {
                         </a>
 
                         {/* Profile icon with dropdown */}
-                        <div className="relative">
+                        <div className="relative z-50">
                             <button
                                 onClick={toggleProfileDropdown}
                                 className="hover:text-gray-600 focus:outline-none"

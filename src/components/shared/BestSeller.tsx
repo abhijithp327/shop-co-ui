@@ -2,12 +2,7 @@ import Image01 from '@/assets/images/grid01.png';
 import Image02 from '@/assets/images/grid02.png';
 import Image03 from '@/assets/images/grid03.png';
 import Image04 from '@/assets/images/grid04.png';
-import Image05 from '@/assets/images/grid05.png';
-import Image06 from '@/assets/images/grid06.png';
-import Image07 from '@/assets/images/grid07.png';
-import Image08 from '@/assets/images/grid08.png';
 
-import { Filter } from 'lucide-react';
 
 interface Product {
     id: number;
